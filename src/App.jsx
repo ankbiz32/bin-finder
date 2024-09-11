@@ -5,7 +5,8 @@ import Scan from './pages/Scan';
 import MyIQ from './pages/MyIQ';
 import Footer from './components/Footer';
 import Header from './components/Header';
-import './App.css'; // Make sure to add appropriate CSS here
+import './App.css';
+import Learn from './pages/Learn';
 
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/scan" element={<Scan />} />
           <Route path="/myiq" element={<MyIQ />} />
+          <Route path="/learn" element={<Learn />} />
         </Routes>
 
         <Footer />
